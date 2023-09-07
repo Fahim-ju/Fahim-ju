@@ -1,0 +1,84 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/background.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.menu-color{
+    color:white;
+}
+.hero_title {
+    font-size: 4.5rem;
+    margin-left: 60px;
+}
+.hero_desc {
+    font-size: 2rem;
+    margin-left: 60px
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+
+.typing-container {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+.text-with-shadow {
+    text-shadow: 2px 2px 4px rgb(10, 10, 10);
+  }
+/* about section image css */
+.imageAboutPage {
+    position: right;
+    width: 60%;
+    border: 2px solid #000; /* 2px solid black border */
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+.navbar{
+    color: white;
+}
+
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
